@@ -1,15 +1,3 @@
 <?php
 echo "Hello World";
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
