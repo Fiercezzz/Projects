@@ -1,10 +1,11 @@
 <?php
 // echo = print
 
-$a = 2001;
-$b = "February";
+$a = 1999;
+$b = "January";
 
-echo "My name is Inigo Montoya, I was born on $a, and my birth month is $b. <br><br>";
+echo "My name is <h1> Inigo Montoya. </h1> I was born on $a, and my birth month is $b... <br>
+and my birthday is on the <b>10th</b>! <br>";
 
 
 $txt1 = "W";
@@ -13,6 +14,10 @@ $c = 1;
 $d = 2;
 $e = $c + $d;
 
-echo $txt1.$e.$txt2; 
+$hello = "Flexible!";
+$world = "Interesting!";
+
+echo "<br> PHP is a language thats very $hello and $world <br> -$txt1$e$txt2";
 
 ?>
+	
